@@ -1,11 +1,21 @@
 <html>
 
-<head></head>
+<head>
+    <h1>QR Code Generator</h1>
+</head>
 
 <body>
+    <label>Enter Code</label>
     <input type="text" id="qr-data" onchange="generateQR()">
-    <div id="qrcode"></div>
+    <br><br>
+    <button>
+        Generate code
+    </button>
+    <br>
+    <div id="qrcode">
+    </div>
 </body>
+<br>
 <script src="qrcode.min.js"></script>
 <script>
     var qrdata = document.getElementById('qr-data');
