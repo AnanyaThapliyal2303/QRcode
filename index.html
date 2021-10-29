@@ -1,10 +1,20 @@
 <html>
 
-<head></head>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <h1><center>QR Code Generator</center></h1>
+</head>
+<br>
+<br>
 
 <body>
+<center>
+    <h2>Enter value to get its QR code</h2>
     <input type="text" id="qr-data" onchange="generateQR()">
+    <br>
+    <h3>Code:</h3>
     <div id="qrcode"></div>
+</center>
 </body>
 <script src="qrcode.min.js"></script>
 <script>
