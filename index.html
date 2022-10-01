@@ -1,5 +1,5 @@
 <html>
-
+    <link rel="stylesheet" href="styles.css">
 <head>
     <h1>QR Code Generator</h1>
 </head>
@@ -12,6 +12,7 @@
         Generate code
     </button>
     <br>
+    <br>
     <div id="qrcode">
     </div>
 </body>
@@ -23,9 +24,8 @@
 
     function generateQR() {
         var data = qrdata.value;
-
         qrcode.makeCode(data);
     }
 </script>
-
+</div>
 </html>
