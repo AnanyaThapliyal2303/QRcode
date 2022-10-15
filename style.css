@@ -92729,3 +92729,10 @@
       transition-delay: 1000ms;
     }
   }
+
+button{
+  z-index: 9999;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
